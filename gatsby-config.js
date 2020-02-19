@@ -29,7 +29,7 @@ module.exports = {
       options: {
         name: process.env.APP_NAME,
         short_name: process.env.APP_NAME,
-        start_url: '/',
+        start_url: '/src/pages/index.js',
         display: 'minimal-ui',
         icon: path.join(__dirname, '/static/logo.png'),
       },

@@ -1,19 +1,19 @@
 {
-  "name": "gatsby-all-in",
-  "description": "A all-in starter for Gatsby",
+  "name": "gatsby-p5-creative-code",
+  "description": "A all-in based starter for Gatsby integrating p5js for the creative coder",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-		"name": "Gherciu Gheorghe",
-		"email": "gherciu553@gmail.com",
-		"url": "https://gherciu.github.io/portfolio/"
-	},
+    "name": "MArtin",
+    "email": "Marander@protonmail.com",
+    "url": "https://gatsby-p5.now.sh/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gherciu/gatsby-all-in"
+    "url": "https://github.com/webmaeistro/gatsby-p5-creative-code.git"
   },
   "bugs": {
-    "url": "https://github.com/Gherciu/gatsby-all-in/issues"
+    "url": "https://github.com/webmaeistro/gatsby-p5-creative-code/issues"
   },
   "scripts": {
     "build": "gatsby build",
@@ -26,14 +26,8 @@
     "clean:install": "rimraf node_modules && rimraf package-lock.json && npm i"
   },
   "lint-staged": {
-    "*.(js|jsx)": [
-      "npm run lint:scripts",
-      "git add"
-    ],
-    "*.(css|scss)": [
-      "npm run lint:styles",
-      "git add"
-    ]
+    "*.(js|jsx)": ["npm run lint:scripts", "git add"],
+    "*.(css|scss)": ["npm run lint:styles", "git add"]
   },
   "husky": {
     "hooks": {
